@@ -13,7 +13,7 @@ jobs:
       run:
         make install
     - name: lint
-      run: |
+      run:
         make lint
     - name: test
         make test
